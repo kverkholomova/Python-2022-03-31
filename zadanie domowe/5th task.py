@@ -18,8 +18,6 @@ n = int(input("Write a number of columns: "))
 
 table = [[int(input(f"T[{i}][{j}]=")) for j in range(n)] for i in range(m)]
 
-# for i in table:
-#     print('\t'.join(map(str, i)))
 
 # m = 5
 # n = 6
@@ -99,3 +97,5 @@ def is_path(arr, x1, x2, y1, y2):
 
 
 print(is_path(table, start_x, finish_x, start_y, finish_y))
+
+input()

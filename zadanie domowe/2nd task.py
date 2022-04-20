@@ -6,7 +6,7 @@
 # 12 jest liczbą obfitą, bo suma jej dzielników właściwych wynosi 1 + 2 + 3 + 4 + 6 = 16, a jej
 # obfitość wynosi 16 − 12 = 4.
 
-n = input()
+n = int(input("Write a number: "))
 
 
 def divs(num: int):

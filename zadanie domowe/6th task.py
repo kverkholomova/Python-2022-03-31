@@ -69,3 +69,6 @@ def reverse_factorial(num: int) -> int:
 
 
 print(reverse_factorial(number_reverse))
+
+
+input()

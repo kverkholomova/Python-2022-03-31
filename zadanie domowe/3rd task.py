@@ -8,7 +8,7 @@
 # [10; 9999] jest osiągalna albo generuje wszystkie liczby osiągalne z tego zakresu .
 
 
-n = input()
+n = int(input("Write a number: "))
 
 
 def reachable_number(num: int):

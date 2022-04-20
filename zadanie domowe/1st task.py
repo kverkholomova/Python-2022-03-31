@@ -15,7 +15,7 @@ def ppdi(num: int):
         return False
 
 
-n = input()
+n = int(input("Write a number to check if it is a Armstrong number: "))
 
 print(ppdi(int(n)), "jest liczbą Armstronga")
 
