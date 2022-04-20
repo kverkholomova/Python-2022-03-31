@@ -20,6 +20,7 @@ def binary_to_gray(num: int) -> str:
     return a
 
 
+
 print("We are turning binary", str(binary), "into gray:", binary_to_gray(int(binary)))
 gray = input("Write a gray number: ")
 
